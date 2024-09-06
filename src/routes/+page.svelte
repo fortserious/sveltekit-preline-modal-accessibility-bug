@@ -19,10 +19,17 @@
           </svg>
         </button>
       </div>
-      <div class="p-4 overflow-y-auto">
+      <div class="p-4 overflow-y-auto flex flex-col gap-2">
         <p class="mt-1 text-gray-800">
-          This is a wider card with supporting text below as a natural lead-in to additional content.
+          This is a wider card with supporting text below as a natural lead-in to additional content.          
         </p>
+
+        <div class="max-w-sm space-y-3">
+  <input type="text" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" placeholder="This is placeholder" tabindex="0">
+</div>
+<div class="max-w-sm space-y-3">
+  <input type="text" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" placeholder="This is placeholder 2" tabindex="0">
+</div>
       </div>
       <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t">
         <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" data-hs-overlay="#hs-basic-modal">
